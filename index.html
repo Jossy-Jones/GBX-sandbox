@@ -1,93 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GBX Sandbox</title>
-    <link rel="icon" href="./assets/img/favicon.png">
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/custom.css">
-
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
 </head>
-
 <body>
-
-    <div class="app">
-        <header class="sticky">
-            <div class="container">
-                <div class="row">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-transparent text-dark w-100">
-                        <a class="navbar-brand" href="/#">
-                            <img src="./assets/img/GBX_Logo.png" class="sm" alt="GBX Logo" height="60px">
-                        </a>
-                        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link font-weight-bold" href="">
-                                        Home <span class="sr-only">(active)</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link font-weight-bold" href="">
-                                        About
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link font-weight-bold" href="">
-                                        Contact
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <button class="mx-2 btn btn-outline-primary font-weight-bold" href="">
-                                        Sign In
-                                    </button>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
+  <!-- Navbar -->
+  <!-- <div class="nav-wrap">
+    <nav>
+      <div class="navbar">
+        <a href="" class="nav-brand"></a>
+        <button>S</button>
+      </div>
+    </nav>
+  </div> -->
+  <div class="nav-wrap">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light bar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img class="logo" src="img/logo/GBX_Logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nat" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign</a>
+            </li>
+            <div class="btn-wrap">
+              <button class="btn btn-outline-success" type="submit">Sign Up</button>
+              <button class="btn btn-success" type="submit">Login</button>
             </div>
-        </header>
-
-        <main>
-            <section>
-                <div class="container">
-                    <div class="row">
-                        <div></div>
-                        <div class="col-xl-12">
-                            <div class="col-xl-6">
-                                <p></p>
-                            </div>
-                            <div class="col-xl-6">
-                                <div>
-                                    <img src="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+  <!-- Carousel -->
+  <div class="wrap">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active sl-1">
+              <!-- <img src="img/slide1.jpg" class="d-block w-100 img-fluid" alt="..."> -->
+              <div class='row'>
+                <div class='col-md-6'>
+                  <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et esse id, assumenda itaque eos voluptate voluptates odio non perferendis sit eum, sed dicta repudiandae. Nisi modi animi id doloremque in!</h2>
                 </div>
-            </section>
-        </main>
+                <div class='col-md-6'>
+                  <img src="img/edited-man-holding-phone.png" class="d-block" alt="..." style="width: 80%">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item sl-1 rt">
+              <div class='row'>
+                <div class='col-md-6'>
+                  <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et esse id, assumenda itaque eos voluptate voluptates odio non perferendis sit eum, sed dicta repudiandae. Nisi modi animi id doloremque in!</h2>
+                </div>
+                <div class='col-md-6'>
+                  <img src="img/image-2a.png" class="d-block" alt="..." style="width: 75%">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item sl-1 ven">
+              <div class='row'>
+                <div class='col-md-6'>
+                  <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et esse id, assumenda itaque eos voluptate voluptates odio non perferendis sit eum, sed dicta repudiandae. Nisi modi animi id doloremque in!</h2>
+                </div>
+                <div class='col-md-6'>
+                  <img src="img/mobile-1.png" class="d-block" alt="..." style="width: 45%">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+  </div>
 
-        <footer></footer>
-    </div>
 
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
 </body>
-
-<!-- Scripts -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-<script src="assets/js/custom.js"></script>
-
 </html>
