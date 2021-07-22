@@ -59,3 +59,20 @@
 .nat{
     justify-content: flex-end !important;
 }
+/* Procedure */
+.procedure-container{
+    width: 100%;
+    height: auto;
+}
+.procedure-container .row{
+    margin: 0;
+}
+.procedure-img{
+    width: 200%;
+    height: auto;
+    position: relative;
+    right: 14rem;
+}
+/* .procedure-container .row .col-md-4 img{
+    width: ;
+}  */
