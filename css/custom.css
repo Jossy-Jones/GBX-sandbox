@@ -63,6 +63,7 @@
 .procedure-container, .platforms-wrap{
     width: 100%;
     height: auto;
+    overflow: hidden;
 }
 .procedure-container .row, .platforms-wrap .row{
     margin: 0;
@@ -128,6 +129,7 @@
 .platforms-wrap{
     background-color: #171312;
     height: 87vh;
+    overflow: hidden;
 }
 .platforms-img{
     bottom: 18rem;
@@ -140,4 +142,41 @@
 }
 .platforms-txt h1{
     font-size: 5rem;
+}
+.badge-wrap{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.badge-img-wrap{
+    width: 30%;
+}
+.badge-img{
+    width: 60%;
+}
+.cta p{
+    display: inline-block;
+    margin-right: 10rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+.cta{
+    border-bottom: 1px solid #fff;
+    width: fit-content;
+    position: relative;
+    left: 8rem;
+}
+.cta span a {
+    color: #fff;
+    text-decoration: none !important;
+    font-size: 13px;
+}
+/* footer */
+.foot-wrap{
+    width: 100%;
+    height: 60vh;
+    background: url(../img/12.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
