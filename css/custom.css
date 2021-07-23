@@ -60,14 +60,14 @@
     justify-content: flex-end !important;
 }
 /* Procedure */
-.procedure-container{
+.procedure-container, .platforms-wrap{
     width: 100%;
     height: auto;
 }
-.procedure-container .row{
+.procedure-container .row, .platforms-wrap .row{
     margin: 0;
 }
-.procedure-img{
+.procedure-img, .platforms-img{
     width: 200%;
     height: auto;
     position: relative;
@@ -76,3 +76,68 @@
 /* .procedure-container .row .col-md-4 img{
     width: ;
 }  */
+
+.procedure-container .row .col-md-8{
+    padding-top: 8rem;
+
+}
+/* .procedure-container .row .col-md-8 h1{
+
+} */
+.procedure-card-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.one{
+    background-color: #FFC665;
+}
+.two{
+    background-color:#519BF4;
+}
+.three{
+    background-color: #FFCDD3;
+}
+.procedure-head{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.procedure-head span{
+    color: #F85641;
+}
+.procedure-card{
+    width: 30%;
+    min-height: 15rem;
+    padding: 2rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.procedure-card p{
+    text-align: center;
+}
+.icon{
+    width: 4rem;
+    position: relative;
+    bottom: 13rem;
+    left: 5rem;
+}
+/* Platforms-wrap */
+.platforms-wrap{
+    background-color: #171312;
+    height: 87vh;
+}
+.platforms-img{
+    bottom: 18rem;
+    right: 17rem;
+}
+.platforms-txt{
+    color: #fff;
+    padding-left: 6rem;
+    padding-top: 5rem;
+}
+.platforms-txt h1{
+    font-size: 5rem;
+}
