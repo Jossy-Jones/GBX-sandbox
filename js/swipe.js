@@ -1,24 +1,32 @@
-const swiper = new Swiper('.swiper-container', {
-	// Optional parameters
-	direction: 'horizontal',
-	loop: true,
+// const swiper = new Swiper('.swiper-container', {
+// 	// Optional parameters
+// 	direction: 'horizontal',
+// 	loop: true,
 
-	// If we need pagination
-	pagination: {
-		el: '.swiper-pagination',
-	},
+// 	// If we need pagination
+// 	pagination: {
+// 		el: '.swiper-pagination',
+// 	},
 
-	// Navigation arrows
-	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev',
-	},
+// 	// Navigation arrows
+// 	navigation: {
+// 		nextEl: '.swiper-button-next',
+// 		prevEl: '.swiper-button-prev',
+// 	},
 
-	// And if we need scrollbar
-	scrollbar: {
-		el: '.swiper-scrollbar',
-	},
-});
-setInterval(()=>{
-	swiper.slideNext(1500);
-}, 7000);
+// 	// And if we need scrollbar
+// 	scrollbar: {
+// 		el: '.swiper-scrollbar',
+// 	},
+// });
+// setInterval(()=>{
+// 	swiper.slideNext(1500);
+// }, 7000);
+
+// var stackedCard = new stackedCards({
+// 	selector: '.stacked-cards',
+// 	layout: "stack",
+// 	transformOrigin: "bottom",
+// });
+
+// stackedCard.init();

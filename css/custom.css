@@ -256,24 +256,65 @@
   -o-transform: translateY(50%); */
 }
 
+.vanguard .text{
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: .6s ease;
+  -webkit-transition: .6s ease;
+  -moz-transition: .6s ease;
+  -ms-transition: .6s ease;
+  -o-transition: .6s ease;
+}
+
+.vanguard .text[data-show='true']{
+  opacity: 1;
+}
+
 .vanguard .text h2{
-  font-size: 9vmin;
+  font-size: 7vmin;
   font-weight: bold;
 }
 
 /* Slide show */
 .swiper-container{
-  overflow: hidden;
+  /* overflow: hidden; */
+  height: 100%;
 }
-.swiper-slide{
+.card-swipe{
   width: 100%;
   height: 450px;
 }
-.swiper-slide img{
+.card-swipe img{
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
+  pointer-events: none;
 }
 
-@media screen and (max-width: 992px) {
+@media (max-width: 992px) {
+  .navbar-collapse {
+      position: fixed;
+      top: 50px;
+      left: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 15px;
+      width: 75%;
+      height: 100%;
+  }
+
+  .navbar-collapse.collapsing {
+      left: 100%;
+      transition: height 0s ease;
+  }
+
+  .navbar-collapse.show {
+      left: 5%;
+      transition: left 300ms ease-in-out;
+  }
+
+  .navbar-toggler.collapsed~.navbar-collapse {
+      transition: left 500ms ease-in-out;
+  }
 }
